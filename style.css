@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #fff;
+    background-color: #111;
+}
+
+.landing {
+    background: url('aoe4_wallpaper.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    margin-top: 20vh;
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn.primary {
+    background: #c79a3b;
+    border: none;
+}
+
+.simple-header {
+    background: #1c1c1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #c79a3b;
+}
